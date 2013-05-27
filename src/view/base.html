@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>{% block title %}HomeSchool Connect{% endblock %}</title>
+    <meta name="description" content="">
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <script type="text/javascript" src="/static/js/bootstrap.js" ></script>
+    <script type="text/javascript" src="/static/js/backbone.js" ></script>
+
+</head>
+<body>
+<div class="container">
+<header><h1>HomeSchool</h1></header>
+    <div class="navbar">
+        <div class="navbar-inner">
+            <a class="brand" href="#">Title</a>
+            <ul class="nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+{% block content %}{% endblock %}
+</body>
+</html>
